@@ -13,17 +13,17 @@ namespace Granaja
         [Space]
         [SerializeField] ProductType productType;
         [SerializeField] float normalCost;
-        [SerializeField] float[] productionTime;
+        [SerializeField] float productionTime;
         [SerializeField] float mutatedCost;
-        [SerializeField] float[] mutatedProductionTime;
+        [SerializeField] float mutatedProductionTime;
         [Space(30)]
         [SerializeField] AnimalType animal;
 
         public ProductType ProductType { get { return productType; } }
         public float NormalCost { get => normalCost; }
-        public float[] ProductionTime { get => productionTime; }
+        public float ProductionTime { get => productionTime; }
         public float MutatedCost { get => mutatedCost; }
-        public float[] MutatedProductionTime { get => mutatedProductionTime; }
+        public float MutatedProductionTime { get => mutatedProductionTime; }
         public AnimalType Animaltype { get => animal; }
 
         public override Producto Get_Product()

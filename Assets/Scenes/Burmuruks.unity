@@ -803,7 +803,7 @@ GameObject:
   - component: {fileID: 1485345426}
   - component: {fileID: 1485345425}
   m_Layer: 0
-  m_Name: hi
+  m_Name: Inventario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -821,11 +821,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bccab3d94df189d49868ebce8b07c566, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: 0
-  products: []
-  maxAnimal: 
-  maxFruits: 
-  productList: {fileID: 0}
+  money: 50
+  productList: {fileID: 11400000, guid: ec2f56fc0840283498bf4549711bfd54, type: 2}
 --- !u!4 &1485345426
 Transform:
   m_ObjectHideFlags: 0

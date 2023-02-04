@@ -35,6 +35,9 @@ namespace Granaja
 
                 pro.txtName.text = product.name;
                 pro.txtCost.text = product.CostBuy.ToString();
+                
+                //if (product.Image != null)
+                //    pro.image.sprite = product.Image;
                 uiProducts.Add(hi);
                 i++;
             }

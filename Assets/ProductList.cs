@@ -16,7 +16,7 @@ namespace Granaja
         [Space(20)]
         [SerializeField] ProductSettings[] products;
 
-        Dictionary<(AnimalType, FruitType), ProductSettings> productList = null;
+        Dictionary<(AnimalType animal, FruitType fruta), ProductSettings> productList = null;
 
         public ProductSettings[] Products { get => products; }
 
@@ -50,7 +50,7 @@ namespace Granaja
 
             foreach (var item in productList)
             {
-                if (item.Key.Item1 != AnimalType.None)
+                if (item.Key.Item1 != AnimalType.None && item.Key.fruta == FruitType.None)
                     result.Add(item.Value);
             }
 

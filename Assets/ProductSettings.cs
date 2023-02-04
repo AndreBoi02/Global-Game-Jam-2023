@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 namespace Granaja
 {
@@ -12,22 +13,21 @@ namespace Granaja
         [Header("Caracteristics")]
         [Space]
         [SerializeField] FruitType fruit;
-        [SerializeField] int[] spaces;
-        public int currentLevel = 0;
+        [SerializeField] int spaces;
         [Space(10)]
         [Header("Sells")]
         [Space]
         [SerializeField] int maxProduction;
-        [SerializeField] int[] upgredeCost;
-        [SerializeField] float[] costBuy;
-        [SerializeField] float[] costSell;
+        [SerializeField] float costBuy;
+        [SerializeField] float costSell;
+        [SerializeField] Sprite image;
 
         public FruitType Fruit { get => fruit; }
-        public int[] Spaces { get => spaces; }
+        public int Spaces { get => spaces; }
         public int MaxProduction { get => maxProduction; }
-        public int[] UpgredeCost { get => upgredeCost; }
-        public float CostBuy { get => costBuy[currentLevel]; }
-        public float CostSell { get => costSell[currentLevel]; }
+        public float CostBuy { get => costBuy; }
+        public float CostSell { get => costSell; }
+        public Sprite Image { get => image; }
 
         public virtual Producto Get_Product()
         {

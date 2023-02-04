@@ -10,16 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fea152c09f16f2438c33c851891bc55, type: 3}
-  m_Name: Vaca
+  m_Name: Oveja
   m_EditorClassIdentifier: 
   fruit: 0
-  spaces: 200
+  spaces: 3
   maxProduction: 5
-  costBuy: 0
-  costSell: 0
-  productType: 4
-  normalCost: 0
-  productionTime: 0
-  mutatedCost: 0
-  mutatedProductionTime: 0
-  animal: 4
+  costBuy: 15
+  costSell: 1
+  image: {fileID: 21300000, guid: 70632ddfe8e71b04b8f90ef7e29a9e98, type: 3}
+  productType: 2
+  normalCost: 5
+  productionTime: 10
+  mutatedCost: 20
+  mutatedProductionTime: 50
+  animal: 2

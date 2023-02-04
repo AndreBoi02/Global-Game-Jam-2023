@@ -9,15 +9,11 @@ namespace Granaja
     {
         [SerializeField] float money = 0;
         [SerializeField] List<(Producto product, int amount)> products = new List<(Producto, int)> ();
-        [SerializeField] int[] maxAnimal;
-        [SerializeField] int[] maxFruits;
         [SerializeField] ProductList productList;
 
         public event Action OnMoneyChange = delegate { };
 
         public float Money { get { return money; } }
-        public int[] Spaces { get => maxAnimal; }
-        public int[] MaxFruits { get => maxFruits; }
 
         public bool Add(in Producto product)
         {
