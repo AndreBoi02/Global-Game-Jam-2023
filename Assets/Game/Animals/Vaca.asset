@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fea152c09f16f2438c33c851891bc55, type: 3}
+  m_Name: Vaca
+  m_EditorClassIdentifier: 
+  fruit: 0
+  spaces: 03000000
+  maxProduction: 5
+  upgredeCost: 
+  costBuy:
+  - 150
+  costSell:
+  - 50
+  productType: 4
+  normalCost: 0
+  productionTime:
+  - 20
+  mutatedCost: 0
+  mutatedProductionTime: []
+  animal: 4
